@@ -74,7 +74,7 @@ namespace DevelopmentChallenge.Data.Tests
         public void TestResumenListaConUnTrapecioRectanguloCastellano()
         {
             Assert.AreEqual(
-                "<h1>Reporte de Formas</h1>1 Rectangulo | Area 6 | Perimetro 10.83 <br/>TOTAL:<br/>1 formas Perimetro 10.83 Area 6",
+                "<h1>Reporte de Formas</h1>1 Rectangulo | Area 6 | Perimetro 10,83 <br/>TOTAL:<br/>1 formas Perimetro 10,83 Area 6",
                 FormaGeometrica.Imprimir(
                     new List<IFormaGeometricaService>
                     {
@@ -112,7 +112,7 @@ namespace DevelopmentChallenge.Data.Tests
             }, new Ingles());
 
             Assert.AreEqual(
-                "<h1>Shapes report</h1>2 Squares | Area 29 | Perimeter 28 <br/>2 Circles | Area 13.01 | Perimeter 18.06 <br/>3 Triangles | Area 49.64 | Perimeter 51.6 <br/>TOTAL:<br/>7 shapes Perimeter 97.66 Area 91.65",
+                "<h1>Shapes report</h1>2 Squares | Area 29 | Perimeter 28 <br/>2 Circles | Area 13,01 | Perimeter 18,06 <br/>3 Triangles | Area 49,64 | Perimeter 51,6 <br/>TOTAL:<br/>7 shapes Perimeter 97,66 Area 91,65",
                 resultado);
         }
 
@@ -120,7 +120,7 @@ namespace DevelopmentChallenge.Data.Tests
         public void TestResumenListaConMasTiposEnCastellano()
         {
             Assert.AreEqual(
-                "<h1>Reporte de Formas</h1>2 Cuadrados | Area 29 | Perimetro 28 <br/>2 Círculos | Area 13.01 | Perimetro 18.06 <br/>3 Triángulos | Area 49.64 | Perimetro 51.6 <br/>TOTAL:<br/>7 formas Perimetro 97.66 Area 91.65",
+                "<h1>Reporte de Formas</h1>2 Cuadrados | Area 29 | Perimetro 28 <br/>2 Círculos | Area 13,01 | Perimetro 18,06 <br/>3 Triángulos | Area 49,64 | Perimetro 51,6 <br/>TOTAL:<br/>7 formas Perimetro 97,66 Area 91,65",
                 FormaGeometrica.Imprimir(new List<IFormaGeometricaService>
                 {
                     new Cuadrado (5),
